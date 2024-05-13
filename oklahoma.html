@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <title>Angie in Oklahoma</title>
 </head>
 <body>
-    <h3>Angie in Oklahoma</h3>
-    <p>Angie has often crossed the border into Oklahoma, where she has developed a rich appreciation for the art museums and the authentic Chinese cuisine at Mandarin Taste.</p>
-    <img src="philbrook.jpeg" style="max-width: 100%;" />
+
+    <div class="main-pic-box" onmouseenter="toggleHide()" onmouseleave="toggleHide()">
+        <span class="head-text">Angie in Oklahoma</span>
+        <p id="pic-text" class="hidden">Angie has often crossed the border into Oklahoma, where she has developed a rich appreciation for the art museums and the authentic Chinese cuisine at Mandarin Taste.</p>
+        <img src="philbrook.jpeg" style="max-width: 100%;" />
+        
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

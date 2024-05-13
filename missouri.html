@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <title>Angie in Missouri</title>
 </head>
 <body>
-    <h3>Angie in Missouri</h3>
-    <p>Angie would meet a teacher from Missouri on a dating app called Hinge. She would spend time visiting him up in Branson, developing a great affection for Vintage Paris Coffeehouse and Table Rock Lake. They would there officially announce their engagement!</p>
-    <img src="engagement.jpeg" style="max-width: 100%;" />
+    
+    <div class="main-pic-box" onmouseenter="toggleHide()" onmouseleave="toggleHide()">
+        <span class="head-text">Angie in Missouri</span>
+        <p id="pic-text" class="hidden">Angie would meet a teacher from Missouri on a dating app called Hinge. She would spend time visiting him up in Branson, developing a great affection for Vintage Paris Coffeehouse and Table Rock Lake. They would there officially announce their engagement!</p>
+        <img src="engagement.jpeg" style="max-width: 100%;" />
+        
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
