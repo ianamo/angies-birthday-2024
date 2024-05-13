@@ -7,11 +7,14 @@ html {
     top: 4px;
     max-width: 100%;
     border-radius: 50px;
-    opacity: 65%;
     margin: 0;
 }
 
-.main-pic-box img:hover {
+.dark {
+    opacity: 65%;
+}
+
+.darker {
     opacity: 25%;
 }
 
